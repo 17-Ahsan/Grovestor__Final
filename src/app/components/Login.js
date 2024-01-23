@@ -134,7 +134,7 @@ const Login = () => {
           />
         </div>
       </div>
-    <div>hi ahsan</div>
+    
     
     
     </> );
