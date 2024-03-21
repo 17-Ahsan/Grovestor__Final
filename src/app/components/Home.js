@@ -39,6 +39,7 @@ const Home = () => {
   };
   return (
     <> <Nav/>
+    
       <section className=" my-5">
       
         <div>
@@ -237,6 +238,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
       <Footer/>
     </>
   );

@@ -1,6 +1,7 @@
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+
+import { Disclosure} from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Link } from 'react-router-dom'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -23,39 +24,43 @@ export default function Example() {
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     className="inline-flex items-center border-b-2 border-amber-300 px-1 pt-1 text-sm font-medium text-amber-500"
                   >
                     Home
-                  </a>
-                  <a
-                    href="#"
+                  </Link>
+                  
+                  
+                  <Link to="#"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-amber-300 hover:text-amber-500"
                   >
                     Top 10 Finds
-                  </a>
-                  <a
-                    href="#"
+                  </Link>
+                  
+                  <Link
+                    to="/About"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-amber-300 hover:text-amber-500"
                   >
                     About
-                  </a>
-                  <a
-                    href="#"
+                  </Link>
+                  <Link
+                    to="/Contact"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-amber-300 hover:text-amber-500"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="my-auto">
+              <Link to="/Login">
               <button
         type="button"
         className="rounded-sm bg-amber-500 px-3 py-3 text-xs font-semibold text-white shadow-sm hover:bg-amber-500 hover:bg-opacity-70 mr-1"
       >
         Login
       </button>
+      </Link>
       <button
         type="button"
         className="rounded-sm bg-amber-500 px-3 py-3 text-xs font-semibold text-white shadow-sm hover:bg-amber-500 hover:bg-opacity-70"
