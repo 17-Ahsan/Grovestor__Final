@@ -58,14 +58,14 @@ export default function Example() {
         type="button"
         className="rounded-sm bg-amber-500 px-3 py-3 text-xs font-semibold text-white shadow-sm hover:bg-amber-500 hover:bg-opacity-70 mr-1"
       >
-        Login
+        Sign in
       </button>
       </Link>
       <button
         type="button"
         className="rounded-sm bg-amber-500 px-3 py-3 text-xs font-semibold text-white shadow-sm hover:bg-amber-500 hover:bg-opacity-70"
       >
-        Register
+        Sign up
       </button>
               </div>
               
