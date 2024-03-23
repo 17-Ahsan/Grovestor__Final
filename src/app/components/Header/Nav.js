@@ -25,7 +25,7 @@ export default function Example() {
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   
                   <Link
-                    to="#"
+                    to="/Homepage"
                     className="inline-flex items-center border-b-2 border-amber-300 px-1 pt-1 text-sm font-medium text-amber-500"
                   >
                     Home
@@ -61,12 +61,14 @@ export default function Example() {
         Sign in
       </button>
       </Link>
+      <Link to="/register">
       <button
         type="button"
         className="rounded-sm bg-amber-500 px-3 py-3 text-xs font-semibold text-white shadow-sm hover:bg-amber-500 hover:bg-opacity-70"
       >
         Sign up
       </button>
+      </Link>
               </div>
               
               <div className="-mr-2 flex items-center sm:hidden">
