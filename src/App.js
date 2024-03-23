@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route,Routes, Link } from 'react-router-dom';
 import About from "./app/components/Header/About";
 import Contact from "./app/components/Contact";
 
-import React from 'react';
+
 
 import NewPage from "./app/components/Header/newpage";
 function App() {
@@ -25,7 +25,7 @@ function App() {
         <Route path="/Newsfeed" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/*" element={<Landingpage />} />
-        <Route path="/newpage" component={NewPage} />
+        <Route path="/newpage" element={<NewPage />} />
       </Routes>
     </Router>
     
