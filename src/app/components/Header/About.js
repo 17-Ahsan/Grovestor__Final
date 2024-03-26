@@ -1,8 +1,11 @@
 import Aboutusimg from "../../assets/img/img1.jpg";
 import Cardimg from "../../assets/img/img1.jpg";
+import Nav from "../Header/Nav";
+import Footer from "../Footer";
 const About = () => {
   return (
     <>
+      <Nav />
       <div className=" bg-black py-16 h-screen flex items-center justify-start">
         <div className="px-14 w-2/4  ">
           <div className=" text-white text-5xl font-bold">
@@ -30,17 +33,17 @@ const About = () => {
 
           <div className="mt-8">
             <p className="text-lg leading-relaxed mb-4">
-              Welcome to GROVESTOR, where dreams find their wings and
-              innovation knows no bounds. Our journey began with a simple yet
-              powerful idea: to provide a platform that empowers visionaries,
+              Welcome to GROVESTOR, where dreams find their wings and innovation
+              knows no bounds. Our journey began with a simple yet powerful
+              idea: to provide a platform that empowers visionaries,
               entrepreneurs, and creatives to turn their dreams into reality.
             </p>
 
             <p className="text-lg leading-relaxed mb-4">
-              At GROVESTOR, we believe in the transformative power of
-              ideas. Whether it's a groundbreaking startup, a revolutionary
-              product, or a passion project, we're here to support and elevate
-              creators from all walks of life.
+              At GROVESTOR, we believe in the transformative power of ideas.
+              Whether it's a groundbreaking startup, a revolutionary product, or
+              a passion project, we're here to support and elevate creators from
+              all walks of life.
             </p>
 
             <p className="text-lg leading-relaxed mb-4">
@@ -51,8 +54,6 @@ const About = () => {
             </p>
           </div>
         </div>
-
-      
 
         <div>
           <div className="text-3xl font-bold text-center py-5">Our Values</div>
@@ -84,19 +85,76 @@ const About = () => {
           </div>
         </div>
 
+        
         <div className="mt-8">
           <h2 className="text-2xl font-bold mb-4">Meet the Team</h2>
 
           <p className="text-lg leading-relaxed mb-4">
-            Behind [Your Business Name] is a passionate team of individuals
+            Behind GROVESTOR is a passionate team of individuals
             dedicated to supporting the next wave of innovators. From our
             experienced leadership to our talented developers and creative
-            minds, we're united by a common goal: to make dreams come true.
+            minds, we're united by a common goal to make dreams come true.
           </p>
-
-          {/* Add team member profiles here if applicable */}
         </div>
+        <div className="grid grid-cols-12 ">
+          <div className="col-span-4">
+            <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div className="flex justify-end px-4 pt-4"></div>
+              <div className="flex flex-col items-center pb-10">
+                <img
+                  className="w-24 h-24 mb-3 rounded-full shadow-lg"
+                  src={Cardimg}
+                  alt="Bonnie image"
+                />
+                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+                  Ahsan Asif
+                </h5>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  Visual Designer
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-span-4">
+            <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div className="flex justify-end px-4 pt-4"></div>
+              <div className="flex flex-col items-center pb-10">
+                <img
+                  className="w-24 h-24 mb-3 rounded-full shadow-lg"
+                  src={Cardimg}
+                  alt="Bonnie image"
+                />
+                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+                  Hanzala Ahmad
+                </h5>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  Visual Designer
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-span-4">
+            <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div className="flex justify-end px-4 pt-4"></div>
+              <div className="flex flex-col items-center pb-10">
+                <img
+                  className="w-24 h-24 mb-3 rounded-full shadow-lg"
+                  src={Cardimg}
+                  alt="Bonnie image"
+                />
+                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+                  Haseeb Ali
+                </h5>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  Visual Designer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
+      <Footer/>
     </>
   );
 };
