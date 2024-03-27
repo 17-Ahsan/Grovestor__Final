@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route,Routes, Link } from 'react-router-dom';
 import About from "./app/components/Header/About";
 import Contact from "./app/components/Contact";
 import Register from "./app/components/Register";
+import Team from "./app/components/Team";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Homepage" element={<Landingpage />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/MeetTheTeam" element={<Team />} />
       </Routes>
     </Router>
     
