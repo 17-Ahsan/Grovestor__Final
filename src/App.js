@@ -23,6 +23,7 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Newsfeed" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/" element={<Landingpage />} />
         <Route path="/Homepage" element={<Landingpage />} />
         <Route path="/register" element={<Register />} />
         <Route path="/MeetTheTeam" element={<Team />} />
