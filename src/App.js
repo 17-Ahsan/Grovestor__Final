@@ -10,7 +10,7 @@ import About from "./app/components/Header/About";
 import Contact from "./app/components/Contact";
 import Register from "./app/components/Register";
 import Team from "./app/components/Team";
-import Topfinds from "./app/components/TopFinds";
+
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
         <Route path="/Homepage" element={<Landingpage />} />
         <Route path="/register" element={<Register />} />
         <Route path="/MeetTheTeam" element={<Team />} />
-        <Route path="/topfinds" element={<Topfinds />} />
+        
         
       </Routes>
     </Router>

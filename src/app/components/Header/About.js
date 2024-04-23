@@ -131,7 +131,7 @@ const About = () => {
                   alt="Bonnie image"
                 />
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
-                  Hanzala Ahmad
+                 Haseeb Ali
                 </h5>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Visual Designer
@@ -149,7 +149,7 @@ const About = () => {
                   alt="Bonnie image"
                 />
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
-                  Haseeb Ali
+                Hanzala Ahmad
                 </h5>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Visual Designer
