@@ -75,7 +75,7 @@ export default function Footer() {
       className="bg-cover bg-center text-center text-neutral-600 dark:bg-neutral-200 dark:text-neutral-200 lg:text-left"
       
     >
-      <div className="py-5 px-10 bg-black">
+      <div className="py-5 px-10 bg-teal-800">
         <div className="sm:flex-col  lg:flex-row md:flex-col flex lg:items-center md:items-start sm:items-center justify-center p-6 lg:justify-between flex-wrap">
           <div className="mt-3 mb-5 mr-12 lg:block">
             <span className="text-5xl uppercase font-bold text-white">

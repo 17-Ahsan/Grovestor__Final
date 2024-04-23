@@ -1,18 +1,24 @@
 import Aboutusimg from "../../assets/img/img1.jpg";
-import Cardimg from "../../assets/img/img1.jpg";
+import Cardimg from "../../assets/img/pic3.png";
+import Cardimg1 from "../../assets/img/pic4up.jpg"
+import Cardimg2 from "../../assets/img/pic2.jpg"
 import Nav from "../Header/Nav";
 import Footer from "../Footer";
+import Homeimg from "../../assets/img/img8.jpg"
 const About = () => {
   return (
     <>
       <Nav />
-      <div className=" bg-black py-16 h-screen flex items-center justify-start">
-        <div className="px-14 w-2/4  ">
-          <div className=" text-white text-5xl font-bold">
+      <div className="  bg-cover bg-center h-[85vh] flex items-center justify-start relative inset-0 bg-black opacity-80"
+      style={{
+        backgroundImage: `url(${Homeimg})`,
+      }}>
+        <div className=" text-black px-14 w-2/5  ">
+          <div className="  text-5xl font-bold">
             We believe in the power of collective support to bring ideas and
             projects to life.
           </div>
-          <div className=" text-white text-xl mt-4">
+          <div className="  text-2xl mt-4">
             Our platform unites creators with backers who share the goal of
             bringing innovative projects to life.
           </div>
@@ -66,13 +72,13 @@ const About = () => {
             </div>
             <div className="text-center shadow-lg">
               <div className="overflow-hidden rounded">
-                <img src={Cardimg} className="hover:scale-125 duration-1000" />
+                <img src={Cardimg1} className="hover:scale-125 duration-1000" />
               </div>
               <h1 className="py-4 text-xl">Transparency and Trust</h1>
             </div>
             <div className="text-center shadow-lg">
               <div className="overflow-hidden rounded">
-                <img src={Cardimg} className="hover:scale-125 duration-1000" />
+                <img src={Cardimg2} className="hover:scale-125 duration-1000" />
               </div>
               <h1 className="py-4 text-xl">Community Collaboration</h1>
             </div>
