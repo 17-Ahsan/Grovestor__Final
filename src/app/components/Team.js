@@ -1,4 +1,5 @@
-import Teamimg from "../assets/img/ahsanpic1.jpeg";
+import Teamimg from "../assets/img/ahsan2.jpg";
+import Teamimg1 from "../assets/img/haseeb1.jpeg"
 import Nav from "./Header/Nav"
 import Footer from "./Footer";
 
@@ -10,7 +11,7 @@ const Team = () => {
      <div className="mt-8">
           <h2 className="text-2xl text-center font-bold mb-4">Meet the Team</h2>
 
-          <p className="text-lg leading-relaxed mb-4">
+          <p className="text-lg leading-relaxed mx-40 mb-6">
             Behind GROVESTOR is a passionate team of individuals
             dedicated to supporting the next wave of innovators. From our
             experienced leadership to our talented developers and creative
@@ -25,7 +26,7 @@ const Team = () => {
                 <img
                   className="w-24 h-24 mb-3 rounded-full shadow-lg"
                   src={Teamimg}
-                  alt="Bonnie image"
+                  alt="image"
                 />
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
                   Ahsan Asif
@@ -42,7 +43,7 @@ const Team = () => {
               <div className="flex flex-col items-center pb-10">
                 <img
                   className="w-24 h-24 mb-3 rounded-full shadow-lg"
-                  src={Teamimg}
+                  src={Teamimg1}
                   alt="Bonnie image"
                 />
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">

@@ -15,7 +15,7 @@ const Contact = () => {
             <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
              
               <h2 className="text-3xl font-bold tracking-tight text-white">
-                Get in touch
+                Contact Us
               </h2>
               <p className="mt-6 text-lg leading-8 text-white">
                 Have something on your mind? We're all ears! Whether it's a
@@ -48,7 +48,7 @@ const Contact = () => {
                   </dt>
                   <dd>
                     <a
-                      className="hover:text-white"
+                      className="hover:text-amber-500"
                       href="tel:+1 (555) 234-5678"
                     >
                       +1 (555) 234-5678
@@ -65,7 +65,7 @@ const Contact = () => {
                   </dt>
                   <dd>
                     <a
-                      className="hover:text-white"
+                      className="hover:text-amber-500"
                       href="mailto:hello@example.com"
                     >
                       hello@example.com

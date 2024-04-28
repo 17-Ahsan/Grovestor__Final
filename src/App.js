@@ -10,7 +10,7 @@ import Register from "./app/components/Register";
 import Team from "./app/components/Team";
 import Recent from "./app/components/Recent";
 import RecentlyFunded from "./app/components/RecentlyFunded";
-import Reviews from "./app/components/Reviews";
+
 
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
         <Route path="/MeetTheTeam" element={<Team />} />
         <Route path="/Recent" element={<Recent />} />
         <Route path="/RecentlyFunded" element={<RecentlyFunded />} />
-        <Route path="/Reviews" element={<Reviews />} />
+       
       </Routes>
     </Router>
     

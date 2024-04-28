@@ -160,13 +160,27 @@ export default function Footer() {
                   </li>
 
                   <li>
-                    <Link to="/Reviews" className="text-sm text-gray-200 hover:text-amber-300">
-                      Accounts Review
+                    <Link to="/Login" className="text-sm text-gray-200 hover:text-amber-300">
+                      Start a Project
                     </Link>
                   </li>
                   <li>
-                    <Link to="/Login" className="text-sm text-gray-200 hover:text-amber-300">
-                      Start a Project
+                    <Link to="/RecentlyFunded" className="text-sm text-gray-200 hover:text-amber-300">
+                    Recent Investors
+                    </Link>
+                  </li>
+                  
+                  
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div className='mt-14'>
+                
+                <ul>
+                  <li>
+                    <Link to="/Recent" className="text-sm text-gray-200 hover:text-amber-300">
+                    Trending Now
                     </Link>
                   </li>
                   <li>
@@ -174,27 +188,8 @@ export default function Footer() {
                       Contact Us
                     </Link>
                   </li>
-                  
-                </ul>
-              </div>
-            </div>
-            <div>
-              <div>
-                <p className="text-gray-200 font-semibold text-xl ">
-                  Quick Shop
-                </p>
-                <ul>
-                  <li>
-                    <Link to="/Recent" className="text-sm text-gray-200 hover:text-amber-300">
-                    Trending Now
-                    </Link>
-                  </li>
 
-                  <li>
-                    <Link to="/RecentlyFunded" className="text-sm text-gray-200 hover:text-amber-300">
-                    Recent Investors
-                    </Link>
-                  </li>
+                  
                   <li>
                     <Link to="/About" className="text-sm text-gray-200 hover:text-amber-300">
                     About

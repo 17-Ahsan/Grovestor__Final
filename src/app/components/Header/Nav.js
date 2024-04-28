@@ -2,6 +2,7 @@
 import { Disclosure} from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
+import Logoimg from "../../assets/img/grovestorLogo.png"
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -17,8 +18,8 @@ export default function Example() {
               <div className="flex">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                    className="h-20 w-auto"
+                    src={Logoimg}
                     alt="Your Company"
                   />
                 </div>
