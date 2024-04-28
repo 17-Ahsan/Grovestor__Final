@@ -1,6 +1,7 @@
 import Homeimg from "../assets/img/img2.jpg";
 import Nav from "../components/Header/Nav"
 import Footer from "./Footer";
+import { Link } from 'react-router-dom'
 const Landingpage = () => {
   return (
     <>
@@ -20,13 +21,14 @@ const Landingpage = () => {
   Dive into the world of innovation and make a difference.
   <div>Are you ready to be part of something extraordinary </div>
   <div className="mt-6">
-  <button
+  <Link to="/Login">
+      <button
         type="button"
         className="rounded-sm bg-amber-500 px-6 py-2 text-xl font-semibold text-white shadow-sm hover:bg-amber-500 hover:bg-opacity-70 mr-1"
       >
         Get Started
       </button>
-      
+      </Link>
       </div>
   </div>
   

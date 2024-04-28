@@ -9,7 +9,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-sky-950">
+    <Disclosure as="nav" className="bg-zinc-900">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -32,10 +32,10 @@ export default function Example() {
                   </Link>
                   
                   
-                  <Link to="#"
+                  <Link to="/Recent"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-amber-300 hover:text-amber-500"
                   >
-                    Top 10 Finds
+                    Top Investors
                   </Link>
                   
                   <Link

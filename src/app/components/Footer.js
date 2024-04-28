@@ -1,5 +1,5 @@
 
-
+import { Link } from 'react-router-dom'
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const navigation = {
@@ -75,7 +75,7 @@ export default function Footer() {
       className="bg-cover bg-center text-center text-neutral-600 dark:bg-neutral-200 dark:text-neutral-200 lg:text-left"
       
     >
-      <div className="py-5 px-10 bg-sky-950">
+      <div className="py-5 px-10 bg-zinc-900">
         <div className="sm:flex-col  lg:flex-row md:flex-col flex lg:items-center md:items-start sm:items-center justify-center p-6 lg:justify-between flex-wrap">
           <div className="mt-3 mb-5 mr-12 lg:block">
             <span className="text-5xl uppercase font-bold text-white">
@@ -148,31 +148,31 @@ export default function Footer() {
 
                 <ul className="text-gray-400 mt-6 space-y-2 text-sm">
                   <li>
-                    <a href="#" className="text-base text-gray-200 hover:text-amber-300">
+                    <Link to="/HomePage" className="text-base text-gray-200 hover:text-amber-300">
                       Home
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="#" className="text-sm text-gray-200 hover:text-amber-300">
+                    <Link to="/MeetTheTeam" className="text-sm text-gray-200 hover:text-amber-300">
                       Meet the Team
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="#" className="text-sm text-gray-200 hover:text-amber-300">
+                    <Link to="/Reviews" className="text-sm text-gray-200 hover:text-amber-300">
                       Accounts Review
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="text-sm text-gray-200 hover:text-amber-300">
+                    <Link to="/Login" className="text-sm text-gray-200 hover:text-amber-300">
                       Start a Project
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="text-sm text-gray-200 hover:text-amber-300">
+                    <Link to="/Contact" className="text-sm text-gray-200 hover:text-amber-300">
                       Contact Us
-                    </a>
+                    </Link>
                   </li>
                   
                 </ul>
@@ -183,35 +183,24 @@ export default function Footer() {
                 <p className="text-gray-200 font-semibold text-xl ">
                   Quick Shop
                 </p>
-
-                <ul className="text-gray-400 mt-6 space-y-2 text-sm">
+                <ul>
                   <li>
-                    <a href="#" className="text-sm text-gray-200 hover:text-amber-300">
-                    Featured Projects
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="text-sm text-gray-200 hover:text-amber-300">
+                    <Link to="/Recent" className="text-sm text-gray-200 hover:text-amber-300">
                     Trending Now
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="#" className="text-sm text-gray-200 hover:text-amber-300">
-                    Recently Funded
-                    </a>
+                    <Link to="/RecentlyFunded" className="text-sm text-gray-200 hover:text-amber-300">
+                    Recent Investors
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="text-sm text-gray-200 hover:text-amber-300">
-                    Categories
-                    </a>
+                    <Link to="/About" className="text-sm text-gray-200 hover:text-amber-300">
+                    About
+                    </Link>
                   </li>
-                  <li>
-                    <a href="#" className="text-sm text-gray-200 hover:text-amber-300">
-                      About
-                    </a>
-                  </li>
+                
                   
                 </ul>
               </div>
@@ -234,7 +223,7 @@ Our team is here to assist you during these hours. Feel free to reach out for an
 
         <div className="border-t border-[#a48971] border-opacity-30 p-6 text-center text-white">
           <span className="font-light">
-            © 2023 Climber Template • All Rights Reserved
+            © Grovestor • All Rights Reserved
           </span>
         </div>
       </div>

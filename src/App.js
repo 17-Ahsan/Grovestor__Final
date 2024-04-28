@@ -1,15 +1,16 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import Home from "./app/components/Home";
-import Nav from "./app/components/Header/Nav"
 import Landingpage from "./app/components/LandingPage";
-import Footer from "./app/components/Footer";
 import Login from "./app/components/Login";
 import { BrowserRouter as Router, Route,Routes, Link } from 'react-router-dom';
 import About from "./app/components/Header/About";
 import Contact from "./app/components/Contact";
 import Register from "./app/components/Register";
 import Team from "./app/components/Team";
+import Recent from "./app/components/Recent";
+import RecentlyFunded from "./app/components/RecentlyFunded";
+import Reviews from "./app/components/Reviews";
 
 
 function App() {
@@ -28,8 +29,9 @@ function App() {
         <Route path="/Homepage" element={<Landingpage />} />
         <Route path="/register" element={<Register />} />
         <Route path="/MeetTheTeam" element={<Team />} />
-        
-        
+        <Route path="/Recent" element={<Recent />} />
+        <Route path="/RecentlyFunded" element={<RecentlyFunded />} />
+        <Route path="/Reviews" element={<Reviews />} />
       </Routes>
     </Router>
     
