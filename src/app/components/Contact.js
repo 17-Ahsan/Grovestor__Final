@@ -33,9 +33,9 @@ const Contact = () => {
                     />
                   </dt>
                   <dd>
-                    545 Mavis Island
+                    545 Citi Housing
                     <br />
-                    Chicago, IL 99191
+                    Gujranwala, Pakistan
                   </dd>
                 </div>
                 <div className="flex gap-x-4">
@@ -51,7 +51,7 @@ const Contact = () => {
                       className="hover:text-amber-500"
                       href="tel:+1 (555) 234-5678"
                     >
-                      +1 (555) 234-5678
+                      (+55) 9999 865
                     </a>
                   </dd>
                 </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                       className="hover:text-amber-500"
                       href="mailto:hello@example.com"
                     >
-                      hello@example.com
+                      grovestorofficial07@gmail.com
                     </a>
                   </dd>
                 </div>
@@ -94,6 +94,7 @@ const Contact = () => {
                       type="text"
                       name="first-name"
                       id="first-name"
+                      placeholder="First Name"
                       autoComplete="given-name"
                       className="block w-full rounded-md border-0 bg-white px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                     />
@@ -111,6 +112,7 @@ const Contact = () => {
                       type="text"
                       name="last-name"
                       id="last-name"
+                      placeholder="Last Name"
                       autoComplete="family-name"
                       className="block w-full rounded-md border-0 bg-white px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                     />
@@ -128,6 +130,7 @@ const Contact = () => {
                       type="email"
                       name="email"
                       id="email"
+                      placeholder="Enter Your Email"
                       autoComplete="email"
                       className="block w-full rounded-md border-0 bg-white px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                     />
@@ -145,6 +148,7 @@ const Contact = () => {
                       type="tel"
                       name="phone-number"
                       id="phone-number"
+                      placeholder="03*********"
                       autoComplete="tel"
                       className="block w-full rounded-md border-0 bg-white px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                     />

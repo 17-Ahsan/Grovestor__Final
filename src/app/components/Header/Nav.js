@@ -17,11 +17,13 @@ export default function Example() {
             <div className="flex h-16 justify-between">
               <div className="flex">
                 <div className="flex flex-shrink-0 items-center">
+                 <Link to="/Homepage">
                   <img
                     className="h-12 mt-2 w-auto"
                     src={Logoimg}
                     alt="Your Company"
                   />
+                  </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   
@@ -33,7 +35,7 @@ export default function Example() {
                   </Link>
                   
                   
-                  <Link to="/Recent"
+                  <Link to="/TopProject"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-amber-300 hover:text-amber-500"
                   >
                     Top Projects

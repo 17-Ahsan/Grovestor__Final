@@ -90,7 +90,7 @@ export default function Footer() {
               <div className="pl-3 text-left">
                 <p className="text-gray-200 font-bold text-xl ">Phone</p>
                 <p className="text-gray-200 font-light text-sm ">
-                  (+653) 6543 865
+                  (+55) 9999 865
                 </p>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function Footer() {
               <div className="pl-3 text-left">
                 <p className="text-gray-200 font-bold text-xl ">Email</p>
                 <p className="text-gray-200 font-light text-sm">
-                  mail@clmbr.co
+                  grovestorofficial07@gmail.com
                 </p>
               </div>
             </div>
@@ -112,7 +112,7 @@ export default function Footer() {
               <div className="pl-3 text-left">
                 <p className="text-gray-200 font-bold text-xl ">Address</p>
                 <p className="text-gray-200 font-light text-sm">
-                  London Eye, UK
+                  Gujranwala, PK
                 </p>
               </div>
             </div>
@@ -166,7 +166,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link to="/RecentlyFunded" className="text-sm text-gray-200 hover:text-amber-300">
-                    Recent Investors
+                    Recent Inventors
                     </Link>
                   </li>
                   
@@ -179,7 +179,7 @@ export default function Footer() {
                 
                 <ul>
                   <li>
-                    <Link to="/Recent" className="text-sm text-gray-200 hover:text-amber-300">
+                    <Link to="/TopProject" className="text-sm text-gray-200 hover:text-amber-300">
                     Trending Now
                     </Link>
                   </li>

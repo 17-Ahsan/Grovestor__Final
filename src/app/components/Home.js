@@ -1,24 +1,18 @@
-import { Link } from "react-router-dom";
+
 import React, { useState } from "react";
 import { IoIosSearch } from "react-icons/io";
-import { LuBellRing } from "react-icons/lu";
-import { TbPlayerPlayFilled } from "react-icons/tb";
-import blankDP from "../assets/img/blank-profile-picture-973460_960_720.webp";
+
 import postImg from "../assets/img/bg.avif";
-import dp1 from "../assets/img/dp1.jpeg";
-import dp2 from "../assets/img/dp2.jpeg";
-import dp3 from "../assets/img/dp3.avif";
-import dp4 from "../assets/img/dp4.jpeg";
-import { FaPlus } from "react-icons/fa6";
+
+import dp2 from "../assets/img/blank profile.webp";
+
+import dp4 from "../assets/img/grovestor-02.jpg";
+
 import { IoPersonCircleOutline, IoSettingsOutline } from "react-icons/io5";
-import { SlPeople } from "react-icons/sl";
+
 import { MdOutlinePhotoLibrary, MdOutlineGroups } from "react-icons/md";
 import { LuLayoutDashboard } from "react-icons/lu";
-import { GrGroup, GrShare } from "react-icons/gr";
-import { TfiVideoClapper } from "react-icons/tfi";
-import { IoPricetagsOutline } from "react-icons/io5";
-import { AiOutlineLike } from "react-icons/ai";
-import { BiCommentDetail } from "react-icons/bi";
+
 import { HiOutlineDotsHorizontal } from "react-icons/hi";
 import Nav from "./Header/Nav"
 import Footer from "./Footer";
@@ -45,11 +39,14 @@ const Home = () => {
         <div>
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 gap-5 sm:grid-cols-6 lg:grid-cols-12 md:grid-cols-12">
-              {/* Left column */}
+              
+
+
+
               <div className="lg:col-span-3 md:col-span-3 sm:col-span-12 ">
                 <div className=" bg-white rounded-xl">
                   <div className="p-5">
-                    <h1 className="text-indigo-700 font-bold uppercase text-md">
+                    <h1 className="text-gray-600 font-bold uppercase text-md">
                       Details
                     </h1>
                     <div className="mb-1 mt-4 flex items-end justify-start">
@@ -70,14 +67,14 @@ const Home = () => {
                   </div>
                   <div className="bg-violet-100 relative">
                     <div className="absolute left-0 top-o bottom-0 my-auto h-full">
-                      <div className="rounded-e-xl h-full w-2 bg-indigo-700"></div>
+                      <div className="rounded-e-xl h-full w-2 bg-amber-500"></div>
                     </div>
                     <div className="px-10 py-5 border-b border-gray-100  flex items-center justify-start">
                       <div className="mr-5">
-                        <LuLayoutDashboard className="text-lg text-indigo-700" />
+                        <LuLayoutDashboard className="text-lg text-amber-500" />
                       </div>
                       <div>
-                        <h1 className="text-indigo-700 font-semibold text-sm">
+                        <h1 className="text-amber-500 font-semibold text-sm">
                           News Feed
                         </h1>
                       </div>
@@ -119,7 +116,9 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              {/* Center Post Area */}
+              
+
+
               <div className="px-5 lg:col-span-6 md:col-span-6 sm:col-span-12">
                 
                 <div className="my-3 bg-white lg:col-span-3 md:col-span-3 sm:col-span-12 rounded-lg">
@@ -154,25 +153,19 @@ const Home = () => {
                         <div className="mt-5 flex items-center justify-start">
                           <button
                             type="button"
-                            className="mr-5 rounded bg-violet-100 px-4 py-1 text-xs font-bold text-indigo-700 shadow-sm flex items-center"
+                            className="mr-5 rounded bg-violet-100 px-4 py-1 text-xs font-bold text-gray-600 shadow-sm flex items-center"
                           >
-                            <MdOutlinePhotoLibrary className="mr-2 text-indigo-700 text-sm" />
+                            <MdOutlinePhotoLibrary className="mr-2 text-gray-600 text-sm" />
                             Photos
                           </button>
-                          <button
-                            type="button"
-                            className="mr-5 rounded bg-violet-100 px-4 py-1 text-xs font-bold text-indigo-700 shadow-sm flex items-center"
-                          >
-                            <TfiVideoClapper className="mr-2 text-indigo-700 text-sm" />
-                            Video
-                          </button>
+                          
                           
                         </div>
                       </div>
                       <div>
                         <button
                           type="button"
-                          className="mr-2 rounded bg-indigo-700 px-6 py-2 text-sm font-semibold text-gray-200 shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                          className="mr-2 rounded bg-amber-500 px-6 py-2 text-sm font-semibold text-gray-200 shadow-sm hover:bg-amber-500 hover:bg-opacity-70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
                           Post
                         </button>
@@ -209,28 +202,7 @@ const Home = () => {
                   <div>
                     <img className="mt-3 h-80 w-full" src={postImg} alt="img" />
                   </div>
-                  <div className="px-5 py-7">
-                    <div className="flex justify-around items-center">
-                      <div>
-                        <p className="font-bold text-gray-500 text-xs flex items-end">
-                          <AiOutlineLike className="mr-2 text-indigo-700 text-xl" />
-                          32 Likes
-                        </p>
-                      </div>
-                      <div>
-                        <p className="font-bold text-gray-500 text-xs flex items-end">
-                          <BiCommentDetail className="mr-2 text-indigo-700 text-lg" />
-                          32 Comments
-                        </p>
-                      </div>
-                      <div>
-                        <p className="font-bold text-gray-500 text-xs flex items-end">
-                          <GrShare className="mr-2 text-indigo-700 text-base" />
-                          4 Shares
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
              

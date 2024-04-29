@@ -1,5 +1,6 @@
 import Registerimg from "../assets/img/login1.jpg"
 import logo from "../assets/img/Logo2.png"
+import { Link } from 'react-router-dom'
 const Login = () => {
     return ( <>
     
@@ -7,11 +8,13 @@ const Login = () => {
         <div className="flex flex-1 flex-col justify-center px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
           <div className="mx-auto w-full max-w-sm lg:w-96">
             <div>
+              <Link to ="/Homepage">
               <img
                 className="h-14 w-auto"
                 src={logo}
-                alt="Your Company"
+                alt="Grovestor"
               />
+              </Link>
               <h2 className="mt-8 text-2xl font-bold leading-9 tracking-tight text-gray-900">
                 Create new account
               </h2>
