@@ -5,6 +5,7 @@ import Cardimg2 from "../assets/img/pic2.jpg"
 import Cardimg3 from "../assets/img/Dream.jpg"
 import teamimg from "../assets/img/ahsan2.jpg"
 import teamimg1 from "../assets/img/haseeb1.jpeg"
+import teamimg2 from "../assets/img/Hanzala.jpeg"
 import Nav from "../components/Header/Nav"
 import Footer from "./Footer";
 import { Link } from 'react-router-dom'
@@ -196,7 +197,7 @@ const Landingpage = () => {
               <div className="flex flex-col items-center pb-10">
                 <img
                   className="w-24 h-24 mb-3 rounded-full shadow-lg"
-                  src={Cardimg}
+                  src={teamimg2}
                   alt="Bonnie image"
                 />
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">

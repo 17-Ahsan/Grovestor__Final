@@ -2,7 +2,7 @@
 import { Disclosure} from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
-import Logoimg from "../../assets/img/grovestorLogo.png"
+import Logoimg from "../../assets/img/grovestorLogo-01.png"
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -18,7 +18,7 @@ export default function Example() {
               <div className="flex">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-20 w-auto"
+                    className="h-12 mt-2 w-auto"
                     src={Logoimg}
                     alt="Your Company"
                   />
@@ -36,7 +36,7 @@ export default function Example() {
                   <Link to="/Recent"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-white hover:border-amber-300 hover:text-amber-500"
                   >
-                    Top Investors
+                    Top Projects
                   </Link>
                   
                   <Link
@@ -57,17 +57,17 @@ export default function Example() {
               <Link to="/Login">
               <button
         type="button"
-        className="rounded-sm bg-amber-500 px-3 py-3 text-xs font-semibold text-white shadow-sm hover:bg-amber-500 hover:bg-opacity-70 mr-1"
+        className="rounded-sm bg-amber-500 px-4 py-1.5 text-xs font-semibold text-white shadow-sm hover:bg-amber-500 hover:bg-opacity-70 mr-1"
       >
-        Sign in
+        Login
       </button>
       </Link>
       <Link to="/register">
       <button
         type="button"
-        className="rounded-sm bg-amber-500 px-3 py-3 text-xs font-semibold text-white shadow-sm hover:bg-amber-500 hover:bg-opacity-70"
+        className="rounded-sm bg-amber-500 px-4 py-1.5 text-xs font-semibold text-white shadow-sm hover:bg-amber-500 hover:bg-opacity-70"
       >
-        Sign up
+        Register
       </button>
       </Link>
               </div>

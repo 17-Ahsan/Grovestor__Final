@@ -1,4 +1,4 @@
-import Aboutusimg from "../../assets/img/img1.jpg";
+import Aboutusimg from "../../assets/img/img6.jpg";
 import Nav from "../Header/Nav";
 import Footer from "../Footer";
 import Homeimg from "../../assets/img/img8.jpg"

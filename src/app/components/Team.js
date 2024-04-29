@@ -1,5 +1,6 @@
 import Teamimg from "../assets/img/ahsan2.jpg";
 import Teamimg1 from "../assets/img/haseeb1.jpeg"
+import Teamimg2 from "../assets/img/Hanzala.jpeg"
 import Nav from "./Header/Nav"
 import Footer from "./Footer";
 
@@ -61,7 +62,7 @@ const Team = () => {
               <div className="flex flex-col items-center pb-10">
                 <img
                   className="w-24 h-24 mb-3 rounded-full shadow-lg"
-                  src={Teamimg}
+                  src={Teamimg2}
                   alt="Bonnie image"
                 />
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">

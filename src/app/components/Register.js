@@ -1,4 +1,5 @@
 import Registerimg from "../assets/img/login1.jpg"
+import logo from "../assets/img/Logo2.png"
 const Login = () => {
     return ( <>
     
@@ -7,8 +8,8 @@ const Login = () => {
           <div className="mx-auto w-full max-w-sm lg:w-96">
             <div>
               <img
-                className="h-10 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                className="h-14 w-auto"
+                src={logo}
                 alt="Your Company"
               />
               <h2 className="mt-8 text-2xl font-bold leading-9 tracking-tight text-gray-900">
@@ -20,7 +21,7 @@ const Login = () => {
               <div>
                 <form action="#" method="POST" className="space-y-6">
                 <div className="grid grid-cols-12 gap-3">
-              {/* Left column */}
+              
               <div className="lg:col-span-6 md:col-span-4 sm:col-span-12 ">
               <label htmlFor="first name" className="block text-sm font-medium leading-6 text-gray-900 ">
                       First Name
@@ -30,13 +31,13 @@ const Login = () => {
                         id="first name"
                         name="first name"
                         type="text"
-                        
+                        placeholder="First Name"
                         required
-                        className="block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3"
+                        className="block w-full rounded-md border-0 px-3 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3"
                       />
                     </div>
               </div>
-              {/* Right Column  */}
+              
               <div className="lg:col-span-6 md:col-span-4 sm:col-span-12 ">
               <label htmlFor="last name" className="block text-sm font-medium leading-6 text-gray-900">
                       Last Name
@@ -46,9 +47,9 @@ const Login = () => {
                         id="last name"
                         name="last name"
                         type="text"
-                        
+                        placeholder="Last Name"
                         required
-                        className="block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3"
+                        className="block w-full rounded-md border-0 px-3 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3"
                       />
                     </div>
               </div>
@@ -70,9 +71,10 @@ const Login = () => {
                         id="email"
                         name="email"
                         type="email"
+                        placeholder="Enter Your Email"
                         autoComplete="email"
                         required
-                        className="block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3"
+                        className="block w-full rounded-md border-0 px-3 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3"
                       />
                     </div>
                   </div>
@@ -86,9 +88,10 @@ const Login = () => {
                         id="password"
                         name="password"
                         type="password"
+                        placeholder="Password"
                         autoComplete="current-password"
                         required
-                        className="block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3"
+                        className="block w-full rounded-md border-0 px-3 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3"
                       />
                     </div>
                   </div>
@@ -102,9 +105,10 @@ const Login = () => {
                         id="password"
                         name="password"
                         type="password"
+                        placeholder="Confirm Password"
                         autoComplete="current-password"
                         required
-                        className="block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3"
+                        className="block w-full rounded-md border-0 px-3 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3"
                       />
                     </div>
                   </div>
@@ -115,7 +119,7 @@ const Login = () => {
                     
                     <button
                       type="submit"
-                      className="flex w-1/2 mx-auto justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                      className="flex w-1/2 mx-auto justify-center rounded-md bg-amber-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-amber-500 hover:bg-opacity-70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
                       Sign up
                     </button>
